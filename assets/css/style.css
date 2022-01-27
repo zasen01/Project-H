@@ -1,4 +1,4 @@
-/*Applies to Overall Page*/
+/*Applies to Overall Stylesheet*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -24,7 +24,7 @@ header h1 {
 header h1 .seo {
     color: #d9dcd6;
 }
-/*Navigation Styling*/
+/*Header Navigation Styling*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,7 +41,7 @@ header nav ul li {
     display: inline;
     margin-left: 25px;
 }
-
+/*Applies to all a and p tags*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -75,7 +75,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
+/*Side Bar Service Benifits Styling - Reduced Duplicate Code*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -87,53 +87,23 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/*Benifit Styling End*/
 
 .search-engine-optimization {
     margin-bottom: 20px;
