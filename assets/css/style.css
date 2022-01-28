@@ -43,7 +43,7 @@ header nav ul li {
     display: inline;
     margin-left: 25px;
 }
-/*Nav Styling END*/
+/*Header Nav Styling END*/
 
 /*Applies to all a and p tags*/
 a {
@@ -63,7 +63,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*Hero Styling End*/
 .float-left {
     float: left;
     margin-right: 25px;
